@@ -19,7 +19,7 @@ var guessedLetters = []
 // This will run when you press a key
 document.onkeyup = function (event) {
 	// which key was pressed?
-	var `userGuess` = event.key;
+	var userGuess = event.key;
 
 
 	// THe below calculates the scores that will be on the scoreboard. For the wins and losses, it is just +1, but for guesses left, it is minus 1
